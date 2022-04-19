@@ -7,4 +7,5 @@ const InputField = ({ input, InputHandler }) => {
         </div>
     )
 }
+
 export default InputField;

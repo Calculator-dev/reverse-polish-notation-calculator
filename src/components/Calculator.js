@@ -7,6 +7,7 @@ const Calculator = () => {
     const [msg, setMsg] = useState("");
     const [input, setInput] = useState("");
     const [locked, setLocked] = useState(0);
+    console.log(input)
 
     const empty = <p className="messages">You did not enter anything!</p>
     const operators = <p className="messages">"Something went wrong! Check the number of OPERATORS"</p>
